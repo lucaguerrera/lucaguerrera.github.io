@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bowlby+One&display=swap');
 
 
-body {
+p {
     font-family: 'Arvo', serif;
 }
 
-header {
+h1 {
     font-family: 'Bowlby One', sans-serif;
 }
