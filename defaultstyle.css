@@ -5,8 +5,15 @@
 
 p {
     font-family: Arvo, serif;
+    color: blueviolet;
 }
 
 h1 {
     font-family: Bowlby One, sans-serif;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
