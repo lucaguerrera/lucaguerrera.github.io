@@ -2,18 +2,43 @@
 /* font importing */
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bowlby+One&display=swap');
 
+body {
+    padding: 20px;
+}
+
 
 p {
     font-family: Arvo, serif;
-    color: blueviolet;
 }
 
 h1 {
     font-family: Bowlby One, sans-serif;
 }
 
-ul {
+ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.active){
+    background-color: blue;
+}
+
+ul.navbar li a.active{
+    background-color: green;
 }
