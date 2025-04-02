@@ -22,7 +22,7 @@ ul.navbar {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
-    background-color: blueviolet;
+    background-color: rgb(91, 20, 255);
 }
 
 ul.navbar li {
@@ -38,9 +38,17 @@ ul.navbar li a{
 }
 
 ul.navbar li a:hover:not(.active){
-    background-color: blue;
+    /* background-color: rgb(142, 10, 152); */
+    background-color: rgb(255, 218, 53);
+    color: black;
 }
 
 ul.navbar li a.active{
-    background-color: green;
+    background-color: rgb(46, 24, 144);
+}
+
+iframe{
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
 }
